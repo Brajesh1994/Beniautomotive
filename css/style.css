@@ -1,0 +1,113 @@
+ *{
+     margin: 0;
+     padding: 0;
+ }
+ .navbar{
+     display: flex;
+     position: fixed;
+     top: 0;
+     width: 100%;
+     
+ }
+ .nav-list{
+     width: 50%;
+     display: flex;
+     align-items: center;
+ }
+ .nav-list li{
+     list-style: none;
+     padding: 25px ;
+
+ }
+ .nav-list li a {
+     text-decoration:none;
+     color: blanchedalmond;
+     font-size: 20px;
+
+ }
+ .rightNav{
+     width: 50%;
+     text-align: center;
+     padding: 25px;
+ }
+ .logo{
+     width: 30%;
+     display: flex  
+ }
+ .logo img{
+     width: 30%;
+     border: 5px black;
+     border-radius: 50px;
+     padding: 10px;
+
+ }
+ .background{
+     background-color: rgba(0, 0, 0, 0.7);
+     background-size:cover;
+     background-blend-mode:darken ;
+ }
+ .nav-list li a:hover{
+    color: rgb(27, 10, 54);
+}
+#search{
+    margin: auto;
+    padding: 1px;
+}
+.boxMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    margin: auto;
+}
+.fHalf{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.sHalf{
+    width: 80%;
+    padding: 35px;
+}
+.textBig{
+    text-decoration: underline;
+    font-size: 35px;
+}
+.textSmall{
+    font-size: 20px;
+    color:ghostwhite;
+}
+.buttons{
+    padding: 5px;
+}
+.sHalf img{
+    border: 10px solid tan;
+
+}
+.backimg{
+    background-image: url(/images/b_g.jpg);
+    height: 100vh;
+    padding: 86px;
+}
+.btn{
+    font-size: 20px;
+    border: solid tan 3px;
+    border-radius: 7px;
+    background: none;
+    color: whitesmoke;
+    cursor: pointer;
+    margin: 6px;
+}
+.btn-sm{
+    vertical-align: middle;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.aboutimg{
+
+}
